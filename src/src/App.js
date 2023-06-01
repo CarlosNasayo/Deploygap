@@ -13,7 +13,6 @@ function App() {
       <Router>
       <Menu />
       <RouteReport/>
-
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/maptools" element={<MapTools />} />
